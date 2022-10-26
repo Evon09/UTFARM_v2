@@ -570,7 +570,7 @@ p {
 }
 
 .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a.active {
-  color: #e83a8a;
+  color: white;
 }
 
 @media (max-width: 767px) {
