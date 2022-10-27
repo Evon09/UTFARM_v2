@@ -470,6 +470,15 @@ p {
   padding: 0;
 }
 
+.navbar-brand span {
+  color: black;
+  transition: 0.2s ease;
+}
+
+.navbar-brand:hover span{
+  color: white;
+}
+
 .navbar-brand img {
   max-width: 180px;
 }
@@ -561,9 +570,6 @@ p {
   text-align: center;
 }
 
-.navbar-brand:hover{
-  color: white;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .navbar-nav .nav-item a {
