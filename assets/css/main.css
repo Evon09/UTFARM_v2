@@ -727,9 +727,7 @@ p {
  99%{
   background-image: url("../images/hero/c3semfundo.png");
  }
-
 }
-
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section .hero-image img {
