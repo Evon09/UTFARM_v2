@@ -34,22 +34,8 @@
     text-indent: 1.5em;
 }
 
-.tamplate-section .hero-content h1 {
-    position: relative;
-    width: 70vw;
-    overflow: hidden;
+.hero-content{
+    text-align: center;
+    margin: 0;
 }
 
-
-.tamplate-section .hero-content h1::after {
-    content: '';
-    min-width: 50%;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    display: inline-block;
-    top: 50%;
-    background: #ef6cac;
-    margin: 0px 5px 0px 20px;
-
-}
