@@ -702,6 +702,35 @@ p {
   padding-top: 50px;
 }
 
+
+.hero-image img{
+  opacity: 0;
+}
+
+#crossfade{
+  background-image: url("../images/hero/c3semfundo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: fade 10s ease infinite 0s;
+}
+
+@keyframes fade {
+  33%{
+    background-image: url("../images/hero/c1semfundo.png");
+  }
+
+ 66%{
+  background-image: url("../images/hero/c2semfundo.png");
+ }
+
+ 99%{
+  background-image: url("../images/hero/c3semfundo.png");
+ }
+
+}
+
+
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section .hero-image img {
     width: 100%;
