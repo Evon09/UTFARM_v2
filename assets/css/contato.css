@@ -6,24 +6,21 @@
 }
 
 
-body{
-	max-width: 100vw;
-	height: 100vh;
-}
 
-.container{
+
+.contact-container{
 	position: relative;
 	max-width: 100%;
 	height: 100%;
-
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 100px;
+	padding: 200px 100px;
 }
 
 
-.container:after{
+.contact-container:after{
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -122,12 +119,5 @@ textarea{
 }
 
 
-@media screen and (max-height: 800px) and (min-width: 880px){
-	.left{
-		display: none;
-	}
-}
 
-footer{
-	position: absolute;
-}
+
