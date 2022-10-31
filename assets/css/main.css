@@ -902,13 +902,45 @@ section.about-section .about-image{
   width: 100%;
 }
 
+.patrocinio{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.patrocinio img{
+  filter: grayscale(100%);
+  transition: 500ms ease-in-out;
+  padding: 10px;
+}
+.patrocinio img:hover{
+  filter: grayscale(0);
+}
+
+@media only screen and (max-width: 450px) {
+  .patrocinio img{
+    width: 50vw;
+  }
+}
+
 /* ==========================
     FOOTER CSS
 ============================= */
 
 .footer{
-  margin-top: 50px;
+  margin-top: 0px;
 }
+
+@media only screen and (min-width: 990px) {
+  .footer{
+    margin-top: 200px;
+  }
+  
+}
+
 
 .footer .footer-widget {
   margin-bottom: 50px;
