@@ -717,6 +717,11 @@ p {
   opacity: 0;
 }
 
+section#plataformas img{
+  /* width: 40vw;
+  margin-top: 100px; */
+}
+
 #crossfade{
   background-image: url("../images/hero/c3semfundo.png");
   background-repeat: no-repeat;
