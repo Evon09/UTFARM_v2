@@ -9,20 +9,11 @@ function getBotResponse(input) {
     }
 
     //1
-    if (input == "Bom dia") {
-        return "Bom dia, como podemos te ajudar?";
-    } else if (input == "Obrigado") {
-        return "A Utfarm agradece o contato!";
-    } else {
-        return "Não entendemos a sua dúvida, nos contate no email contato@utfarm.com.br";
-    }
 
-    //2
-    if (input == "Bom dia") {
-         return "Bom dia, como podemos te ajudar?";
-    } else if (input == "Obrigado") {
-        return "A Utfarm agradece o contato!";
-    } else {
-        return "Não entendemos a sua dúvida, nos contate no email contato@utfarm.com.br";
-    }
+        if (input == "bom dia" ) {
+            return "Bom dia, como podemos te ajudar?";
+        } 
+        if (input == "boa tarde" ) {
+            return "Boa tar, como podemos te ajudar?";
+        } 
 }
