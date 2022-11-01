@@ -1,17 +1,17 @@
 function getBotResponse(input) {
     //rock paper scissors
-    if (input == "Pedra") {
+    if (input.toLowerCase() == "Pedra") {
         return "Papel";
-    } else if (input == "papel") {
+    } else if (input.toLowerCase() == "papel") {
         return "Tesoura";
-    } else if (input == "Tesoura") {
+    } else if (input.toLowerCase() == "Tesoura") {
         return "Pedra";
     }
-    if (input == "Bom dia") {
+    if (input.toLowerCase() == "Bom dia") {
         return "Bom dia";
-    } else if (input == "Boa tarde") {
+    } else if (input.toLowerCase()== "Boa tarde") {
         return "Boa tarde";
-    } else if (input == "Boa noite") {
+    } else if (input.toLowerCase() == "Boa noite") {
         return "Boa noite";
     }
 }
