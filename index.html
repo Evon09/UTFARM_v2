@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="assets/css/chat.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/sliding-background.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.convform.css">
   </head>
   <body>
     <!--[if lte IE 9]>
@@ -240,51 +241,66 @@
 		</footer>
 		<!-- ========================= footer end ========================= -->
 
-
-    <!-- ========================= scroll-top ========================= -->
+	<!-- ========================= scroll-top ========================= -->
+	<a href="#" class="scroll-top btn-hover">
+		<i class="lni lni-chevron-up"></i>
+	</a>
+    
 	<!-- CHAT BAR BLOCK -->
-	<div class="chat-bar-collapsible">
-		<button id="chat-button" type="button" class="collapsible"> Dúvidas?
-			<i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
-		</button>
+	<!-- ChatBot -->
+	<div class="chat_icon">
+		<i class="fa fa-comments" aria-hidden="true"></i>
+	</div>
 
-		<div class="content">
-			<div class="full-chat-block">
-				<!-- Message Container -->
-				<div class="outer-container">
-					<div class="chat-container">
-						<!-- Messages -->
-						<div id="chatbox">
-							<h5 id="chat-timestamp"></h5>
-							<p id="botStarterMessage" class="botText"><span>Carregando...</span></p>
-						</div>
+	<div class="chat_box">
+		<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
 
-						<!-- User input box -->
-						<div class="chat-bar-input-block">
-							<div id="userInput">
-								<input id="textInput" class="input-box" type="text" name="msg"
-									placeholder=" ">
-								<p></p>
-							</div>
-								<i id="chat-icon" style="color: #d688b0;" class="fa fa-fw fa-send"
-									onclick="sendButton()"></i>
-							</div>
-						</div>
+		<input type="text" name="name" data-conv-question="Por favor, digite seu nome">
+		<input type="text" data-conv-question="Olá {name}, <br> é um prazer te conhecer." data-no-answer="true">
+		<input type="text" data-conv-question="Como posso te ajudar?" data-no-answer="true">
+			<select data-conv-question=" "name="category">
+			<option value="Sitio">Sítio urbano</option>
+			<option value="Plataformas">Plataformas</option>
+			<option value="Kits">Kits</option>
+			<option value="Serviços">Serviços</option>
+		
+		</select>
 
-						<div id="chat-bar-bottom">
-							<p></p>
-						</div>
-
+		<div data-conv-fork="category">
+			<div data-conv-case="Sitio">
+				<select data-conv-question=""name="category">
+					<option value="Compra">Comprar</option> 
+					<option value="Saiba">Saiba mais</option> 	
+				</select>
+				<div data-conv-fork="category">
+					<div data-conv-case="Compra">
+						<input type="text" data-conv-question="Compra ae">
+					</div>
+					<div data-conv-case="Saiba">
+						<input type="text" data-conv-question="Sabedoria">
 					</div>
 				</div>
+				
+			</div>
 
+			<div data-conv-case="Sitio">
+				<select data-conv-question=""name="category">
+				
+				<option value="Sitio">Comprar</option> 
+				<option value="Sitio">Saiba mais</option> 	
+				
 			</div>
 		</div>
 
+
+		</form>
+		</div>
 	</div>
-    <a href="#" class="scroll-top btn-hover">
-      <i class="lni lni-chevron-up"></i>
-    </a>
+	<!-- ChatBot end -->
+
+
+	
 
 
     <!-- ========================= JS here ========================= -->
@@ -293,9 +309,13 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/polyfill.js"></script>
     <script src="assets/js/main.js"></script>
-	<script src="assets/js/chat.js"></script>
-	<script src="assets/js/responses.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	
+	<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.convform.js"></script>
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+
 
 
   </body>
