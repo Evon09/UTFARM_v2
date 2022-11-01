@@ -1,0 +1,31 @@
+.patrocinio{
+    overflow: hidden;
+    margin-top: 35vh;
+}
+
+
+
+.sliding-background {
+    background: url("../images/logo/logo.png") repeat-x;
+    background-position: center center;
+    /* background-size: cover; */
+    filter: grayscale(100);
+    width: 60000px;
+    height: 25vh;
+    animation: slide 100s linear infinite;
+    transition: ease-in-out 0.5s;
+}
+
+.sliding-background:hover{
+    filter: grayscale(0);
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-20000px, 0, 0);
+    }
+}

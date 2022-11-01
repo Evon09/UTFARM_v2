@@ -902,7 +902,7 @@ section.about-section .about-image{
   width: 100%;
 }
 
-.patrocinio{
+/* .patrocinio{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -924,7 +924,7 @@ section.about-section .about-image{
   .patrocinio img{
     width: 50vw;
   }
-}
+} */
 
 /* ==========================
     FOOTER CSS
@@ -936,7 +936,7 @@ section.about-section .about-image{
 
 @media only screen and (min-width: 990px) {
   .footer{
-    margin-top: 200px;
+    margin-top: 2px;
   }
   
 }
