@@ -10,11 +10,8 @@ function getBotResponse(input) {
     if (input == "Bom dia") {
         return "Bom dia";
     } else if (input == "Boa tarde") {
-        return "Boa Tarde";
-    } 
-    if (input == "Quais os produtos?") {
-        return "Os nossos produtos são";
-    } else if (input == "Qual o contato?") {
-        return "Nosso contato é contato@utfarm.com.br";
-    } 
+        return "Boa tarde";
+    } else if (input == "Boa noite") {
+        return "Boa noite";
+    }
 }
