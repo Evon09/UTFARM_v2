@@ -7,13 +7,14 @@ function getBotResponse(input) {
     } else if (input == "Tesoura") {
         return "Pedra";
     }
-
-    //1
-
-        if (input == "bom dia" ) {
-            return "Bom dia, como podemos te ajudar?";
-        } 
-        if (input == "boa tarde" ) {
-            return "Boa tar, como podemos te ajudar?";
-        } 
+    if (input == "Bom dia") {
+        return "Bom dia";
+    } else if (input == "Boa tarde") {
+        return "Boa Tarde";
+    } 
+    if (input == "Quais os produtos?") {
+        return "Os nossos produtos são";
+    } else if (input == "Qual o contato?") {
+        return "Nosso contato é contato@utfarm.com.br";
+    } 
 }
