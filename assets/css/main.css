@@ -717,9 +717,8 @@ p {
   opacity: 0;
 }
 
-section#plataformas img{
-  /* width: 40vw;
-  margin-top: 100px; */
+section.about-section .about-image{
+  bottom: -30%;
 }
 
 #crossfade{
@@ -906,6 +905,11 @@ section#plataformas img{
 /* ==========================
     FOOTER CSS
 ============================= */
+
+.footer{
+  margin-top: 50px;
+}
+
 .footer .footer-widget {
   margin-bottom: 50px;
 }
