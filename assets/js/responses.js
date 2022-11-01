@@ -7,8 +7,7 @@ function getBotResponse(input) {
     } else if (input == "Tesoura") {
         return "Pedra";
     }
-
-    // Simple responses
+    //1
     if (input == "Bom dia") {
         return "Bom dia, como podemos te ajudar?";
     } else if (input == "Obrigado") {
@@ -16,8 +15,7 @@ function getBotResponse(input) {
     } else {
         return "Não entendemos a sua dúvida, nos contate no email contato@utfarm.com.br";
     }
-    
-    // Simple responses
+    //2
     if (input == "Bom dia") {
          return "Bom dia, como podemos te ajudar?";
     } else if (input == "Obrigado") {
@@ -25,6 +23,31 @@ function getBotResponse(input) {
     } else {
         return "Não entendemos a sua dúvida, nos contate no email contato@utfarm.com.br";
     }
+    //3
+    if (input == "Bom dia") {
+        return "Bom dia, como podemos te ajudar?";
+    } else if (input == "Obrigado") {
+        return "A Utfarm agradece o contato!";
+    } else {
+       return "Não entendemos a sua dúvida, nos contate no email contato@utfarm.com.br";
+    }
+    //4
+    if (input == "Bom dia") {
+        return "Bom dia, como podemos te ajudar?";
+    } else if (input == "Obrigado") {
+        return "A Utfarm agradece o contato!";
+    } else {
+        return "Não entendemos a sua dúvida, nos contate no email contato@utfarm.com.br";
+        }
+    //5
+    if (input == "Bom dia") {
+        return "Bom dia, como podemos te ajudar?";
+    } else if (input == "Obrigado") {
+        return "A Utfarm agradece o contato!";
+    } else {
+        return "Não entendemos a sua dúvida, nos contate no email contato@utfarm.com.br";
+    }
+
 
 
 
