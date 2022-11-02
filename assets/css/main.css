@@ -934,9 +934,9 @@ section.about-section .about-image{
   margin-top: 0px;
 }
 
-@media only screen and (min-width: 990px) {
-  .footer{
-    margin-top: 2px;
+@media only screen and (min-width: 990px) and  (min-height: 420px){
+  .footer{ 
+    margin-top: 200px;
   }
   
 }
