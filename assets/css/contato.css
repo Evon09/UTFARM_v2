@@ -121,4 +121,9 @@ header .navbar-area .container a:hover{
 	color:#ef6cac
 }
 
+footer.space.pt-120{
+	margin: 0;
+	padding: 0;
+}
+
 
