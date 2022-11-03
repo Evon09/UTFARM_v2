@@ -9,8 +9,8 @@
 
 input:not([type="submit"]),
 textarea{
-	border: 1px solid #abb3c0;
-	color: #667080;
+	
+
 	padding: 10px 16px;
 	margin: 0 0 15px 0;
 	font: 14px/22px "Open Sans", sans-serif;
@@ -27,7 +27,6 @@ textarea{
 input[type="submit"]{
   border: 0px;
   color: white;
-  background: #010519;
   padding: 11px 25px;
   margin: 0 0 15px 0;
   font: 14px/20px "Open Sans", sans-serif;
@@ -47,9 +46,9 @@ input[type="submit"]{
 	z-index: 1000;
 	padding: 0;
 	font-size: 40px;
-	color: #ef6cac;
+	color: #E8DAEF;
 	cursor: pointer;
-	filter: drop-shadow(0 0 0.0rem rgb(0, 0, 0));
+
 }
 .chat_box{
 	width: 400px;
@@ -57,10 +56,11 @@ input[type="submit"]{
 	position: fixed;
 	bottom: 100px;
 	right: 30px;
-	background:#dedede;
+	background:#E8DAEF;
 	z-index: 3001;
 	transition: all 0.3s ease-out;
 	transform: scaleY(0);
+	border-radius: 10px;
 }
 .chat_box.active{
 	transform: scaleY(1);
