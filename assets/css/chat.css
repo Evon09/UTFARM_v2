@@ -60,6 +60,7 @@ input[type="submit"]{
 	z-index: 3001;
 	transition: all 0.3s ease-out;
 	transform: scaleY(0);
+	border-radius: 10px;
 }
 .chat_box.active{
 	transform: scaleY(1);
