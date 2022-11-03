@@ -256,7 +256,7 @@
 		<div class="my-conv-form-wrapper">
 		<form action="" method="GET" class="hidden">
 
-		<input type="text" name="name" data-conv-question="Por favor, digite seu nome">
+		<input type="text" name="name" data-conv-question="Olá, qual seu nome?">
 		<input type="text" data-conv-question="Olá {name}, <br> é um prazer te conhecer." data-no-answer="true">
 		<input type="text" data-conv-question="Como posso te ajudar?" data-no-answer="true">
 			<select data-conv-question=" "name="category">
@@ -275,20 +275,61 @@
 				</select>
 				<div data-conv-fork="category">
 					<div data-conv-case="Compra">
-						<input type="text" data-conv-question="Compra ae">
+						<input type="text" data-conv-question="Para comprar nossos produtos <br> entre em contato no email vendas@utfarm.com.br">
 					</div>
 					<div data-conv-case="Saiba">
-						<input type="text" data-conv-question="Sabedoria">
+						<input type="text" data-conv-question="Para saber mais <br> entre em contato no email contato@utfarm.com.br">
+					</div>
+				</div>
+				
+			</div>
+			<div data-conv-case="Plataformas">
+				<select data-conv-question=""name="category">
+					<option value="Compra">Comprar</option> 
+					<option value="Saiba">Saiba mais</option> 	
+				</select>
+				<div data-conv-fork="category">
+					<div data-conv-case="Compra">
+						<input type="text" data-conv-question="Para comprar nossos produtos <br> entre em contato no email vendas@utfarm.com.br">
+					</div>
+					<div data-conv-case="Saiba">
+						<input type="text" data-conv-question="Para saber mais <br> entre em contato no email contato@utfarm.com.br">
+					</div>
+				</div>
+				
+			</div>
+			<div data-conv-case="Kits">
+				<select data-conv-question=""name="category">
+					<option value="Compra">Comprar</option> 
+					<option value="Saiba">Saiba mais</option> 	
+				</select>
+				<div data-conv-fork="category">
+					<div data-conv-case="Compra">
+						<input type="text" data-conv-question="Para comprar nossos kits <br> entre em contato no email vendas@utfarm.com.br">
+					</div>
+					<div data-conv-case="Saiba">
+						<input type="text" data-conv-question="Para saber mais <br> entre em contato no email contato@utfarm.com.br">
+					</div>
+				</div>
+				
+			</div>
+			<div data-conv-case="Serviços">
+				<select data-conv-question=""name="category">
+					<option value="Compra">Comprar</option> 
+					<option value="Saiba">Saiba mais</option> 	
+				</select>
+				<div data-conv-fork="category">
+					<div data-conv-case="Compra">
+						<input type="text" data-conv-question="Para comprar nossos serviços <br> entre em contato no email vendas@utfarm.com.br">
+					</div>
+					<div data-conv-case="Saiba">
+						<input type="text" data-conv-question="Para saber mais <br> entre em contato no email contato@utfarm.com.br">
 					</div>
 				</div>
 				
 			</div>
 
-			<div data-conv-case="Sitio">
-				<select data-conv-question=""name="category">
-				
-				<option value="Sitio">Comprar</option> 
-				<option value="Sitio">Saiba mais</option> 	
+
 				
 			</div>
 		</div>

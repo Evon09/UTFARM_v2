@@ -160,7 +160,7 @@ div.conv-form-wrapper:before {
     top: 0;
     left: 0;
     z-index: 2;
-    background: linear-gradient(#fff, transparent);
+
 }
 @media (max-width: 767px) {
     div.conv-form-wrapper div.wrapper-messages, div.conv-form-wrapper div#messages {
