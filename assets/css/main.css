@@ -934,12 +934,6 @@ section.about-section .about-image{
   margin-top: 0px;
 }
 
-@media only screen and (min-width: 990px) and  (min-height: 420px){
-  .footer{ 
-    margin-top: 200px;
-  }
-  
-}
 
 
 .footer .footer-widget {
@@ -1468,7 +1462,7 @@ section.about-section .about-image{
   padding-top: 115px;
 }
 
-.pt-120 {
+.pt-120{
   padding-top: 120px;
 }
 
