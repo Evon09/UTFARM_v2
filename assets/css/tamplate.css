@@ -1,27 +1,20 @@
 .tamplate-section {
-    background: linear-gradient(180deg, #d688b0 0%, rgba(255, 255, 255, 0) 70.47%);
+    /* background: linear-gradient(180deg, #d688b0 0%, rgba(255, 255, 255, 0) 70.47%); */
     z-index: 1;
     padding-top: 20vh;
+    padding-bottom: 5vh;
+    min-height: 80vh;
+    
 }
 
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .tamplate-section {
-        height: 650px;
-    }
-}
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .tamplate-section {
-        height: 640px;
-    }
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .tamplate-section {
         height: auto;
-        padding: 100px 0;
+        padding: 100px;
     }
 }
 
@@ -36,3 +29,16 @@
     list-style-image: url("../images/hero/plant.png");
 }
 
+.tamplate-section .hero-content .accordion-item .about-image{
+    bottom:0%;
+}
+
+
+.accordion-item .about-section{
+    padding-top: 30px;
+}
+
+footer.space{
+    padding: 0;
+    margin: 0;
+}
