@@ -264,7 +264,7 @@ ConvState.prototype.answerWith = function(answerText, answerObject) {
             timeOutFirstQuestion : 1200,
             buttonClassStyle : 'icon2-arrow',
             selectInputStyle: 'show',
-            selectInputDisabledText: 'Selecione uma opção',
+            selectInputDisabledText: 'Selecione:',
             eventList : {
                 onSubmitForm : function(convState) {
                     console.log('completed');
