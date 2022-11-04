@@ -51,7 +51,7 @@ input[type="submit"]{
 
 }
 .chat_box{
-	width: 400px;
+	width: 420px;
 	height: 80vh;
 	position: fixed;
 	bottom: 100px;
