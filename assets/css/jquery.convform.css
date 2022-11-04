@@ -146,10 +146,15 @@ div.conv-form-wrapper {
 }
 div.conv-form-wrapper div.wrapper-messages {
     position: relative;
-    height: 50vh;
+    height: 70vh;
     max-height: 71vh;
     overflow-y: scroll;
     transition: margin 0.1s;
+}
+@media only screen and (max-height:450px){
+    div.conv-form-wrapper div.wrapper-messages {
+        height: 50vh;
+    }    
 }
 div.conv-form-wrapper:before {
     content: '';
