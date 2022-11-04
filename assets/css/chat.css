@@ -22,7 +22,7 @@ textarea{
 	border-radius: 4px;
 }
 textarea{
-	height: 80px
+	height: 100px
 }
 input[type="submit"]{
   border: 0px;
@@ -80,5 +80,10 @@ input[type="submit"]{
 @media only screen and (max-width: 420px) {
 	.chat_box{
 		width: 60vw;
+		height: 150vw;
+	}
+	textarea{
+		width: 60vw;
+		height: 150vw;
 	}
 }
