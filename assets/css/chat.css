@@ -21,6 +21,9 @@ textarea{
 	text-align: left;
 	border-radius: 4px;
 }
+
+
+
 textarea{
 	height: 80px
 }
@@ -62,6 +65,7 @@ input[type="submit"]{
 	transform: scaleY(0);
 	border-radius: 10px;
 }
+
 .chat_box.active{
 	transform: scaleY(1);
 }

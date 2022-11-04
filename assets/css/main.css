@@ -165,6 +165,10 @@ p {
   .container {
     padding: 0 30px;
   }
+  .container.tamplate {
+    padding: 0 0px;
+    width: 100%;
+  }
 }
 
 /*===== All Button Style =====*/
